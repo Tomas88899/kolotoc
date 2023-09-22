@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  
+  background-color: rgba(7, 93, 222, 0.742)
+}
+
+
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.container {
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 2em;
+  background: rgba(0,0,0,.1)
+}
+
+.card-carousel {
+  width: 80%;
+  max-width: 280px;
+  height: 350px;
+ min-width: 600px;
+   position: relative;
+  margin: 0 auto;
+  width: 100%;
+  transition: filter .3s ease;
+}
+
+.card-carousel .card {
+  background: whitesmoke;
+  width: 80%;
+  max-width: 280px;
+  text-align: center;
+  padding: 1em;
+  min-width: 250px;
+  height: 350px;
+  position: absolute;
+  margin: 0 auto;
+   transition: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s linear;
+  display: none;
+  
+}
+
+
+
+
+
+.sliderPrava{
+  position:absolute;
+  cursor:pointer;
+background-color: transparent;
+  color: aliceblue;
+  height: 40px;
+  
+  
+  top: 60%;
+  left: 52%;
+  
+}
+.sliderLava{
+  position:absolute;
+  cursor:pointer;
+background-color: transparent;
+  color: aliceblue;
+  height: 40px;
+  
+  
+  top: 60%;
+  left: 48%;
+  
+}
+
+
